@@ -152,11 +152,11 @@ Para rodar o YOLO em instâncias gratuitas (t2.micro com 1GB RAM), é **obrigat�
 	- Para t2.micro recomendamos:
 		- yolov4-tiny para respostas mais rapidas
 		- yolov3 para respostas mais precisas
-	- codigo abaixo segue um exemplo com yolov4-tiny
+	- codigo abaixo segue um exemplo com yolov3
 
     ```
-    wget [https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights)
-    wget [https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-tiny.cfg](https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-tiny.cfg)
+    wget https://pjreddie.com/media/files/yolov3.weights
+    wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg
     ```
 
 5. **Iniciar o Servidor:**
