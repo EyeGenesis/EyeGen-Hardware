@@ -14,7 +14,7 @@ Este MVP demonstra uma arquitetura robusta que alterna entre processamento local
 - [Arquitetura do Sistema](#-Arquitetura-do-Sistema)
 - [Configuração e Instalação](#-Configuração-e-Instalação)
 - [Como Usar](#-Como-Usar)
-- [Escalabildiade e futuro](#-Escalabilidade-e-Futuro)
+- [Escalabilidade e futuro](#-Escalabilidade-e-Futuro)
 - [Estrutura do Repositório](#-Estrutura-do-Repositório)
 
 
