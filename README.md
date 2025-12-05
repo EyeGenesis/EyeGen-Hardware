@@ -274,4 +274,4 @@ Este MVP prova o conceito. Para transformar o EyeGlass em um produto comercial e
 
 ## 🤝 Autor
 
-Desenvolvido por **[EYEGEN]**. Projeto de MVP focado em acessibilidade, visão computacional e arquitetura de nuvem.
+Desenvolvido por **EYEGEN**. Projeto de MVP focado em acessibilidade, visão computacional e arquitetura de nuvem.
