@@ -139,14 +139,21 @@ Para rodar o YOLO em instâncias gratuitas (t2.micro com 1GB RAM), é **obrigat�
     free -h
     ```
 
-3. **Instalar Dependências:**
+3. **Crie um VENV**
+
+	```
+	python -m venv venv
+	source venv/bin/activate
+	```
+
+4. **Instalar Dependências:**
 
     ```
     sudo apt update && sudo apt install libgl1
     pip install flask opencv-python-headless numpy
     ```
 
-4. **Baixar a IA (YOLO):**
+5. **Baixar a IA (YOLO):**
 
 	- Para t2.micro recomendamos:
 		- yolov4-tiny para respostas mais rapidas
@@ -158,7 +165,7 @@ Para rodar o YOLO em instâncias gratuitas (t2.micro com 1GB RAM), é **obrigat�
     wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg
     ```
 
-5. **Iniciar o Servidor:**
+6. **Iniciar o Servidor:**
 
     ```
     python3 server_ia.py
@@ -169,7 +176,7 @@ Para rodar o YOLO em instâncias gratuitas (t2.micro com 1GB RAM), é **obrigat�
 
 No seu computador:
 
-1. Clone este repositório e crie um venv para projetp em sua máquina.
+1. Clone este repositório e crie um venv para projeto em sua máquina.
 
 ```
 python -m venv venv
@@ -259,7 +266,7 @@ Este MVP prova o conceito. Para transformar o EyeGlass em um produto comercial e
 ├── server_ia.py              # [AWS] API Server (Flask + YOLOv3)
 ├── camera_pi.py              # [Raspberry] Streamer de Vídeo
 ├── requirements.txt          # Dependências do projeto
-└── README.md                 # Documentação
+├── README.md                 # Documentação
 └── audios                 	  # Pasta com audios personalizados para voz
 ```
 
