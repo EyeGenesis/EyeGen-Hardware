@@ -261,6 +261,7 @@ Este MVP prova o conceito. Para transformar o EyeGlass em um produto comercial e
 ├── camera_pi.py              # [Raspberry] Streamer de Vídeo
 ├── requirements.txt          # Dependências do projeto
 └── README.md                 # Documentação
+└── audios                 	  # Pasta com audios personalizados para voz
 ```
 
 ---
