@@ -1,5 +1,5 @@
-👁️ EyeGlass - Assistente Visual Híbrido (MVP)
-Repositório dedicado ao desenvolvimento do Hardware da EyeGen, o EyeGlass. Utilizamos como principais ferramentas: Raspeberry PI zero 2w, Raspeberry cam, Python(Flask, OpenCV,  TTS), AWS
+# 👁️ EyeGlass - Assistente Visual Híbrido (MVP)
+
 
 ## Tecnologia Assistiva Inteligente com Arquitetura Híbrida (Local + Cloud)
 
