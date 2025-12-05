@@ -14,7 +14,7 @@ Este MVP demonstra uma arquitetura robusta que alterna entre processamento local
 - [Arquitetura do Sistema](#-Arquitetura-do-Sistema)
 - [Configuração e Instalação](#-Configuração-e-Instalação)
 - [Como Usar](#-Como-Usar)
-- [Escalabildiade e futuro](#-Escalabilidade-e-Futuro-(Roadmap))
+- [Escalabildiade e futuro](#-Escalabilidade-e-Futuro)
 - [Estrutura do Repositório](#-Estrutura-do-Repositório)
 
 
@@ -228,7 +228,7 @@ O sistema é controlado totalmente por voz para acessibilidade.
 
 ---
 
-## 📈 Escalabilidade e Futuro (Roadmap)
+## 📈 Escalabilidade e Futuro
 
 Este MVP prova o conceito. Para transformar o EyeGlass em um produto comercial escalável para milhares de usuários, a arquitetura evoluirá para:
 
