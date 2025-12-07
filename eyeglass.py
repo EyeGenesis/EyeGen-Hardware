@@ -13,10 +13,10 @@ import io
 from ultralytics import YOLO
 
 # --- CONFIGURAÇÕES DE REDE ---
-AWS_IP = "54.233.37.77"  # Seu IP da AWS
+AWS_IP = "54.233.xx.xx"  # Seu IP da AWS
 URL_API = f"http://{AWS_IP}:5000/detectar"
 
-RASP_IP = "192.168.0.83" # Seu IP da Raspberry
+RASP_IP = "192.168.x.xx" # Seu IP da Raspberry
 URL_CAMERA = f"http://{RASP_IP}:5000/video_feed"
 
 # --- CONFIGURAÇÕES LOCAL YOLO ---
